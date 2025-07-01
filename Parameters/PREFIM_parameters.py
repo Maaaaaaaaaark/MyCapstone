@@ -76,6 +76,10 @@ training_group.add_argument('--over_sample',type=str,default='False')
 # Apply a hinge loss to the classifier
 training_group.add_argument('--hinge_coeff',type=float,default=0.0)
 
+####
+training_group.add_argument('--use_uncertainty', type=bool, default=False, help='Enable uncertainty-aware cost correction')
+training_group.add_argument('--uncertainty_mode', type=str, default='entropy', help='Uncertainty estimation mode: entropy, variance, etc.')
+
 
 def get_bool(value):
     if (value == 'True'):
