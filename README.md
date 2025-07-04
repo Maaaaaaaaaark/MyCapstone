@@ -1,5 +1,4 @@
 # Safety through Feedback in Constrained RL  
-**Authors:** Shashank Reddy Chirra, Pradeep Varakantham, Praveen Paruchuri  
 
 ## Introduction  
 In safety-critical RL, designing cost functions for safe behavior can be complex and costly, for example, in domains like self-driving. We propose a scalable method to infer cost functions from feedback, addressing challenges in long term credit assignment by transforming the task into a supervised classification problem with noisy labels. To minimize feedback collection costs, we introduce a novelty-based sampling mechanism that elicits feedback only novel trajectories. Experiments on Safety Gymnasium and self-driving scenarios demonstrate that our method achieves near-optimal performance, highlighting its effectiveness and scalability.  
