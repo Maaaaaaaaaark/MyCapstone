@@ -44,20 +44,6 @@ The following environment specifications are supported:
 
 The remaining hyperparameters are specified in the `'Parameters'` directory.  
 
-## Credit  
-This repository builds upon a fork of [SIM-RL](https://github.com/hmhuy0/SIM-RL.git).  
 
-## Contact  
-Email: shashankc@smu.edu.sg  
 
-## Citation  
-```  
-@inproceedings{  
-    chirra2024safety,  
-    title={Safety through feedback in Constrained {RL}},  
-    author={Shashank Reddy Chirra and Pradeep Varakantham and Praveen Paruchuri},  
-    booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},  
-    year={2024},  
-    url={https://openreview.net/forum?id=WSsht66fbC}  
-}  
 ```  
